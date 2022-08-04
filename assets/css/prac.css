@@ -1,0 +1,27 @@
+.container{
+    background-color: crimson;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:space-between;
+}
+.row>.item{
+    background-color: black;
+    color: #fff;
+    margin: 20px;
+    flex: 1;
+}
+
+.row>.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    
